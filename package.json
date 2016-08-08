@@ -1,0 +1,23 @@
+{
+  "name": "genstr",
+  "version": "1.0.0",
+  "description": "Walk through files tree and output Localizable.string format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios",
+    "osx",
+    "localizable",
+    "strings"
+  ],
+  "bin": {
+    "genstr": "./index.js"
+  },
+  "author": "Denis Trofimov",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.14.2"
+  }
+}
