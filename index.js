@@ -17,9 +17,10 @@ var localizedStringNilSwift = /NSLocalizedString\("([^"]*)",\s*comment:\s*nil\s*
 
 var localized = /Localized\("([^"]*)"[^\n\r]*\)/gm;
 var localizedSwift2 = /"([^"]*)".localized\(\)/gm;
+var localizedSwift4 = /"([^"]*)".localized/gm;
 var localizedSwift2WithFormat = /"([^"]*)".localizedFormat\([^\n\r]*\)/gm;
 
-var matches = [localizedStringComment, localizedStringNil, localizedStringCommentSwift, localizedStringNilSwift, localized, localizedSwift2, localizedSwift2WithFormat];
+var matches = [localizedStringComment, localizedStringNil, localizedStringCommentSwift, localizedStringNilSwift, localized, localizedSwift2, localizedSwift4, localizedSwift2WithFormat];
 
 var utils = require('./lib/utils');
 
