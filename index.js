@@ -7,7 +7,7 @@
 const localizable = require('./lib/localizable');
 const synchronize_plists = require('./lib/synchronize_plists');
 
-const directory = '/Users/denistrofimov/workspace/capitalist/capitalist-fire-ios'; //process.cwd()
+const directory = process.cwd();
 const command = process.argv.slice(2)[0];
 const arg = process.argv.slice(2)[1];
 
