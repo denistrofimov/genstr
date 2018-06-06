@@ -17,6 +17,6 @@ switch (command) {
         synchronize_plists(directory, arg);
         break;
     case 'strings':
-        localizable(directory);
+        console.log(localizable(directory));
         break;
 }
