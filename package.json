@@ -1,6 +1,6 @@
 {
   "name": "genstr",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Walk through files tree and output Localizable.string format",
   "main": "index.js",
   "scripts": {
